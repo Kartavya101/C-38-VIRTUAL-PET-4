@@ -1,2 +1,1 @@
-# virtualpet4
-project37
+# Virtual-Pet-2.0
