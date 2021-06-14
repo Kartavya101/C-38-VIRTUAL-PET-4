@@ -41,7 +41,7 @@ function setup() {
 
 
 function draw() {  
-  background("yellow")
+  background("green")
 
   foodObj.display();
   writeStock(foodS);
@@ -70,7 +70,7 @@ function draw() {
     dog.y=250;
   }
   
-  var Bath=createButton("I want to take bath");
+  var Bath=createButton("I want to take a bath");
   Bath.position(580,125);
   if(Bath.mousePressed(function(){
     gameState=3;
@@ -82,7 +82,7 @@ function draw() {
     milkBotltle2.visible=false;
   }
 
-  var Sleep=createButton("I am very sleepy");
+  var Sleep=createButton("I am sleepy");
   Sleep.position(710,125);
   if(Sleep.mousePressed(function(){
     gameState=4;
@@ -94,7 +94,7 @@ function draw() {
     milkBotltle2.visible=false;
   }
 
-  var Play=createButton("Lets play !");
+  var Play=createButton("Lets play!");
   Play.position(500,160);
   if(Play.mousePressed(function(){
     gameState=5;
@@ -106,7 +106,7 @@ function draw() {
     milkBotltle2.visible=false;
   }
 
-  var PlayInGarden=createButton("Lets play in park");
+  var PlayInGarden=createButton("Lets play in the park");
   PlayInGarden.position(585,160);
   if(PlayInGarden.mousePressed(function(){
     gameState=6;
